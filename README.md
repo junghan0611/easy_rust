@@ -1,4 +1,4 @@
-## Update
+## Update 업데이트
 ![example workflow name](https://github.com/Dhghomon/easy_rust/workflows/github%20pages/badge.svg)
 
 2 April 2021: [Added BuyMeACoffee link](https://www.buymeacoffee.com/mithridates) for those who would like to buy me a coffee.
@@ -13,15 +13,25 @@
 
 ![](Easy_Rust_sample_image.png)
 
-## Introduction
+## Introduction 소개
 
 Rust is a new language that already has good textbooks. But sometimes its textbooks are difficult because they are for native English speakers. Many companies and people now learn Rust, and they could learn faster with a book that has easy English. This textbook is for these companies and people to learn Rust with simple English.
 
 Rust is a language that is quite new, but already very popular. It's popular because it gives you the speed and control of C or C++ but also the memory safety of other newer languages like Python. It does this with some new ideas that are sometimes different from other languages. That means that there are some new things to learn, and you can't just "figure it out as you go along". Rust is a language that you have to think about for a while to understand. But it still looks pretty familiar if you know another language and it is made to help you write good code.
 
+
+
+러스트는 새로운 언어로써 이미 좋은 교과서들이 있다. 그러나 이러한 지침서들은 원어민을 대상으로 씌여졌기 때문에 우리에게는 때론 어렵게 다가온다. 바야흐로 이제는 많은 회사와 사람들이 러스트를 배우고 있다. 이들은 쉬운 영어로 작성된 지침서를 통하여 러스트를 보다 빠르게 배울 수 있으며 그러기를 희망한다. 본 지침서는 이와 같은 회사와 사람들이 쉬운 영어로 러스트를 배우게 하기 위해 씌여졌다.  
+
+러스트는 새로우면서도 이미 널리 알려진 언어이다. 이와 같은 인기는 무엇보다도 러스트가 제공하는 C와 C++에 버금가는 속도와 제어 수준 뿐만 아니라 파이썬과 같은 새로운 언어들에서 제공되는 메모리 보호 메커니즘 때문이다. TODO!
+
+
+
 ## Who am I?
 
-I am a Canadian who lives in Korea, and I wrote Easy Rust while thinking of how to make it easy for companies here to start using it. I hope that other countries that don't use English as a first language can use it too.
+나는 한국에 살고 있는 캐나다인이며, 어떻게 하면 이곳의 회사들에서 러스트를 쉽게 시작할 수 있을까에 대한 생각 가운데 본 지침서인 ''이지 러스트''를 썼다. 나는 영어를 모국어로 사용하지 않는 다른 나라에서도 본 지침서를 활용하기를 희망한다. 
+
+
 
 ## Writing Rust in Easy English
 
