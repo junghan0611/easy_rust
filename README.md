@@ -15,23 +15,13 @@
 
 ## Introduction 소개
 
-Rust is a new language that already has good textbooks. But sometimes its textbooks are difficult because they are for native English speakers. Many companies and people now learn Rust, and they could learn faster with a book that has easy English. This textbook is for these companies and people to learn Rust with simple English.
+러스트는 새로운 언어로써 이미 좋은 교과서들이 있다. 그러나 이러한 지침서들은 원어민을 대상으로 씌여졌기 때문에 우리에게는 때론 어렵게 다가온다. 바야흐로 이제는 많은 회사와 사람들이 러스트를 배우고 있다. 이들은 쉬운 영어로 작성된 지침서를 통하여 러스트를 보다 빠르게 배울 수 있으며 그러기를 희망한다. 본 지침서는 이와 같은 회사와 사람들이 쉬운 영어로 러스트를 배우게 하기 위해 씌여졌다.
 
-Rust is a language that is quite new, but already very popular. It's popular because it gives you the speed and control of C or C++ but also the memory safety of other newer languages like Python. It does this with some new ideas that are sometimes different from other languages. That means that there are some new things to learn, and you can't just "figure it out as you go along". Rust is a language that you have to think about for a while to understand. But it still looks pretty familiar if you know another language and it is made to help you write good code.
-
-
-
-러스트는 새로운 언어로써 이미 좋은 교과서들이 있다. 그러나 이러한 지침서들은 원어민을 대상으로 씌여졌기 때문에 우리에게는 때론 어렵게 다가온다. 바야흐로 이제는 많은 회사와 사람들이 러스트를 배우고 있다. 이들은 쉬운 영어로 작성된 지침서를 통하여 러스트를 보다 빠르게 배울 수 있으며 그러기를 희망한다. 본 지침서는 이와 같은 회사와 사람들이 쉬운 영어로 러스트를 배우게 하기 위해 씌여졌다.  
-
-러스트는 새로우면서도 이미 널리 알려진 언어이다. 이와 같은 인기는 무엇보다도 러스트가 제공하는 C와 C++에 버금가는 속도와 제어 수준 뿐만 아니라 파이썬과 같은 새로운 언어들에서 제공되는 메모리 보호 메커니즘 때문이다. TODO!
-
-
+러스트는 아주 새로우면서도 이미 매우 인기 있는 언어이다. 이와 같은 인기는 무엇보다도 러스트가 제공하는 C 또는 C++에 버금가는 속도와 제어 뿐만 아니라 파이썬과 같은 최신 언어에서 제공하는 메모리 안정성 덕분이다. 위와 같은 동작은 때때로 다른 언어들과는 다른 새로운 아이디어들로 수행된다. 이는 배워야하는 새로운 것들이 있음을 의미하며, 단지 익숙해지는 과정만을 통해서는 파악할 수는 없다. 즉, 러스트는 이해하기 위해서 잠시 동안 생각을 해야만하는 언어이다. 그러나 다른 언어를 알고 있다면 마찬가지로 익숙하게 받아들일 수 있고 좋은 코드를 작성하는데 도움이 되도록 만들어졌다.
 
 ## Who am I?
 
-나는 한국에 살고 있는 캐나다인이며, 어떻게 하면 이곳의 회사들에서 러스트를 쉽게 시작할 수 있을까에 대한 생각 가운데 본 지침서인 ''이지 러스트''를 썼다. 나는 영어를 모국어로 사용하지 않는 다른 나라에서도 본 지침서를 활용하기를 희망한다. 
-
-
+나는 한국에 살고 있는 캐나다인이며, 어떻게 하면 이곳의 회사들에서 러스트를 쉽게 시작할 수 있을까에 관한 생각 가운데 본 지침서인 ''이지 러스트''를 썼다. 나는 영어를 모국어로 사용하지 않는 다른 나라에서도 본 지침서를 활용하기를 희망한다. 
 
 ## Writing Rust in Easy English
 
@@ -155,7 +145,7 @@ Rust is a language that is quite new, but already very popular. It's popular bec
 
 # Part 1 - Rust in your browser
 
-This book has two parts. In Part 1, you will learn as much Rust as you can just in your browser. You can actually learn almost everything you need to know without installing Rust, so Part 1 is very long. Then at the end is Part 2. It is much shorter, and is about Rust on your computer. That's where you will learn everything else you need to know that you can only do outside of a browser. Some examples are: working with files, taking user input, graphics, and personal settings. Hopefully, by the end of Part 1 you will like Rust enough that you will install it. And if you don't, no problem - Part 1 teaches you so much that you won't mind.
+이 책은 두 부분으로 구성되어 있다. 파트 1에서는 브라우저에서 러스트의 가능한 많은 부분을 배울 것이다. 러스트를 설치하지 않고도 알아야 할 거의 모든 것을 실제로 배울 수 있으며 고로, 파트 1은 매우 길다. 다음으로 파트 2는 훨씬 짧으며 컴퓨터를 다루는 것과 연관된 러스트에 관한 것들이다. 여기서 브라우저 밖에서만 할 수 있는 모든 것을 배울 것이다. 몇 가지 예를 들자면 다음과 같다: 파일에 대한 작업과 사용자 입력, 그래픽 및 개인 설정 가져오기. 바라건대 파트 1이 끝날 무렵에는 러스트를 설치하기에 충분할 것이다. 그렇지 않더라도 별 문제는 없다. 파트 1은 당신이 신경 쓰지 않을 만큼 많은 것을 가르쳐 주기 때문이다. 
 
 ## Rust Playground
 **[See this chapter on YouTube](https://youtu.be/-lYeJeQ11OI)**
