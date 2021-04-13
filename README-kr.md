@@ -150,9 +150,9 @@
 ## Rust Playground
 **[See this chapter on YouTube](https://youtu.be/-lYeJeQ11OI)**
 
-Maybe you don't want to install Rust yet, and that's okay. You can go to [https://play.rust-lang.org/](https://play.rust-lang.org/) and start writing Rust without leaving your browser. You can write your code there and click Run to see the results. You can run most of the samples in this book inside the Playground in your browser. Only near the end you will see samples that go beyond what you can do in the Playground (like opening files).
+아직은 러스트를 설치하고 싶지 않을 수도 있다. 괜찮다. 다음 주소에 가면([https://play.rust-lang.org/](https://play.rust-lang.org/)) 브라우저 내에서 러스트 프로그래밍을 시작할 수 있다. 그 곳에서 코드를 작성하고 실행을 클릭하면 결과를 볼 수 있다. 또한 이 책에 있는 대부분의 예제들은 브라우저 내의 Playground 안에서 실행이 가능하다. 단지 파일 열기와 같은 Playground의 수준을 넘는 샘플들은 거의 끝에가서나 볼 수 있다. 
 
-Here are some tips when using the Rust Playground:
+다음은 Playground에서 러스트를 사용할 때의 몇가지 팁이다:
 
 - Run your code with Run
 - Change Debug to Release if you want your code to be faster. Debug: compiles faster, runs slower, contains debug information. Release: compiles slower, runs much faster, removes debug information.
@@ -210,7 +210,7 @@ fn main() {
 
 ## Types
 
-Rust has many types that let you work with numbers, characters, and so on. Some are simple, others are more complicated, and you can even create your own.
+러스트는 숫자, 문자 등과 같은 많은 타입이 있다. 일부는 간단하고 다른 것들은 더 복잡하며, 심지어는 원하는 타입을 직접 만들 수 도 있다. 
 
 ### Primitive types
 **[See this chapter on YouTube](https://youtu.be/OxTPU5UGMhs)**
